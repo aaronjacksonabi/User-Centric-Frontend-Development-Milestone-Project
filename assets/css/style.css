@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Inria+Serif:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-.logo {    
-    background: url("../images/TRU-LOGO.jpg");
+.nav-bar {
+    border: solid;
+    border-color: black;
+    border-width: 1em; 
+    padding-left: 120px;    
+}
+
+.tru-logo {
+    
+    border-top: solid;
+    border-right: solid;
+    border-left: solid;
+    border-color: black;
+    border-width: 1em;
 }
