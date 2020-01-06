@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />    
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Project</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -15,16 +14,14 @@
 
 <br>
 <header>    
-    <nav class="navbar navbar-inverse">
+    <nav class="head-nav-bk navbar navbar-inverse">
         <div class="container-fluid">
+            <h1 class="title-color"><mark> N-TRACs Services</mark></h1>
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">N-TRACs Review</a>
+                <a class="nav-tab nav navbar-brand" href="index.html"><span class="fa fa-home"></span> Home</a>
+                <a class="nav-tab nav navbar-brand" href="log-in.html"><span class="fa fa-sign-in"></span> Log In</a>
+                <a class="nav-tab nav navbar-brand" href="service-reviews.html"><span class="fa fa-server"></span> Service Reviews</a>
             </div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="log-in.html">Log In</a></li>
-                    <li><a href="service-reviews.html">Service Reviews</a></li>
-                </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-address-book" aria-hidden="true"></i>Contact <span class="caret"></span></a>                
                 <ul class="dropdown-menu navbar-right">
@@ -47,11 +44,21 @@
             </div>
         </nav>      
 </header>
-<section>
-    
+
+<section class="container-fluid">
+    <div class="row">
+        
+            <div>            
+                <img class="photo" src="../images/drhfj.jpg" alt="Dr Howard F Jackson">            
+            </div>
+        
+        
+        
+    </div>
 </section>
+
 <footer>
-    <nav class="navbar navbar-inverse">
+    <nav class="foot-nav-bk navbar navbar-inverse">
         <div class="container-fluid">                
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-link" aria-hidden="true"></i>Links <span class="caret"></span></a>                      
@@ -62,8 +69,8 @@
                 <li><a class="fa fa-home" href="http://ntracs.co.uk/" target="_blank">N-TRACS</a></li>
             </ul>
         </div>
-        <div class="footer-copyright text-center py-3 text-warning">© 2020 Copyright:
-            <a href="http://ntracs.co.uk/" target="_blank"> ntracs.co.uk</a>
+        <div class="footer-copyright text-right py-3 text-warning">© 2020 Copyright:
+            <a href="http://ntracs.co.uk/" target="_blank"> ntracs.co.uk <span class="text-warning">©</span></a>
         </div>
     </nav>       
 </footer>

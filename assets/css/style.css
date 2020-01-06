@@ -1,1 +1,41 @@
 @import url('https://fonts.googleapis.com/css?family=Inria+Serif:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+.h1 {
+    color: white;
+}
+
+.head-nav-bk {    
+    background: url("../images/brain.jpg");
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;    
+    padding-left: 100px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.foot-nav-bk {    
+    background: url("../images/brain.jpg");
+    background-position: 75% 85%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.nav-tab {
+    border: solid;
+    border-color: antiquewhite;
+}
+
+.photo {
+    background: url("../images/drhfj.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 750px;
+    min-width: 625px;
+    background-position: 90% 90%;
+}
