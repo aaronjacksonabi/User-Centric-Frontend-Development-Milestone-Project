@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Inria+Serif:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-.h1 {
-    color: white;
-}
-
 .head-nav-bk {    
     background: url("../images/brain.jpg");
     background-position: 100% 100%;
@@ -12,7 +8,7 @@
     height: 100%;
     width: 100%;    
     padding-left: 100px;
-    margin-bottom: 0;
+    margin-bottom: 2px;
     margin-top: 0;
 }
 
@@ -23,19 +19,39 @@
     background-size: cover;
     height: 100%;
     width: 100%;
+    margin-top: 2px;
     margin-bottom: 0;
 }
 
-.nav-tab {
-    border: solid;
-    border-color: antiquewhite;
+.section {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 10vw 30vw 10vw;
+    grid-gap: 1em;
 }
 
 .photo {
     background: url("../images/drhfj.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 750px;
+    min-height: 820px;
     min-width: 600px;
     background-position: 90% 90%;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    
+}
+
+.logo {
+    background: url("../images/ntracslogo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 200px;
+    min-width: 1260px;
+    
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    object-fit: cover;
 }
