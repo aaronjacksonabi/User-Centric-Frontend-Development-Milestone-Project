@@ -48,10 +48,16 @@
     background-repeat: no-repeat;
     background-position: center;
     min-height: 200px;
-    min-width: 1260px;
+    min-width: 1260px;        
     
+}
+
+.welcome {
+    background: url("../images/paper.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 3px;
     border: solid;
     border-color: black;
     border-width: 2px;
-    object-fit: cover;
 }
