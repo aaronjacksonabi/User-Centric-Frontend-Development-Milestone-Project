@@ -137,9 +137,9 @@
 }
 
 .photo {
-    background: url("../images/drhfj4.jpg");
+    background: url("../images/brain2.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
     min-height: 820px;
     min-width: 600px;
     background-position: 90% 90%;
