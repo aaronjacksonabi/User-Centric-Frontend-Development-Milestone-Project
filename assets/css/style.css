@@ -137,7 +137,7 @@
 }
 
 .photo {
-    background: url("../images/drhfj.jpg");
+    background: url("../images/drhfj4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 820px;
@@ -151,7 +151,7 @@
 }
 
 .photo2 {
-    background: url("../images/drcfj4.jpg");
+    background: url("../images/drcfj5.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 820px;
@@ -218,4 +218,11 @@
     display: block;
     font-weight: bold;
     margin-left: 10px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 24px;
+  color: white;
 }
