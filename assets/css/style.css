@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Inria+Serif:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+
 .head-nav-bk {    
     background: url("../images/brain.jpg");
     background-position: 100% 100%;
@@ -148,6 +149,8 @@
     border-width: 2px; 
     border-top-width: 0;
     border-bottom-width: 27px;
+    max-width: 100%;
+    height: auto;
 }
 
 .photo2 {
@@ -162,6 +165,8 @@
     border-width: 2px;    
     border-top-width: 0;
     border-bottom-width: 27px;
+    max-width: 100%;
+    height: auto;
 }
 
 .photo3 {
@@ -176,6 +181,8 @@
     border-width: 2px;      
     border-top-width: 0;
     border-bottom-width: 27px;
+    max-width: 100%;
+    height: auto;
 }
 
 .logo {
@@ -184,7 +191,8 @@
     background-position: center;
     min-height: 200px;
     min-width: 1260px;        
-    
+    max-width: 100%;
+    height: auto;
     
 }
 
@@ -225,4 +233,42 @@
   bottom: 8px;
   right: 24px;
   color: white;
+}
+
+@media (max-width: 480px) {
+
+	.photo {
+		transform: scale(0.9);        
+        min-width: 400px;        
+	}
+
+   .photo2 {
+		transform: scale(0.9);        
+        min-width: 400px; 
+
+   }
+
+    .photo3 {
+		transform: scale(0.9);        
+        min-width: 400px;
+    }
+        
+
+    .logo {
+        visibility: hidden;      
+        
+	}
+
+    .welcome {
+        transform: scale(0.9);        
+        min-width: 400px;
+    }
+
+    .welcome .row {
+        max-height: 50px;
+    }
+
+    #nav {
+        margin-left: 90px;
+    }
 }
