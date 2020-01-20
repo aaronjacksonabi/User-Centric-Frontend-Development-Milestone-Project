@@ -250,7 +250,7 @@
     }
         
     .logo {
-        margin-left: 13px;
+        position: relative;
     }
 
     .welcome {
