@@ -260,7 +260,11 @@
         min-width: 400px;
     }
 
+    #nav {
+        margin-left: 90px;
+    }
 
-
-
+    .chart {
+        margin-left: 50px;
+    }
 }
