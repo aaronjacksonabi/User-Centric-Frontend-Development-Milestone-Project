@@ -233,21 +233,7 @@
 
 @media (max-width: 480px) {
 
-	.photo {
-		transform: scale(0.9);        
-        min-width: 400px;        
-	}
-
-   .photo2 {
-		transform: scale(0.9);        
-        min-width: 400px; 
-
-   }
-
-    .photo3 {
-		transform: scale(0.9);        
-        min-width: 400px;
-    }
+	
         
     .logo {
         position: relative;
