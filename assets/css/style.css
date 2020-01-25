@@ -138,8 +138,7 @@
 }
 
 .photo {
-    background: url("../images/brain2.jpg");
-    background-repeat: no-repeat;
+    
     background-size: auto;
     width: 100%;
     background-position: 90% 90%;
@@ -152,11 +151,10 @@
 }
 
 .photo2 {
-    background: url("../images/drcfj5.jpg");
-    background-repeat: no-repeat;
+    
     background-size: cover;
     width: 100%;
-    background-position: 100% 100%;
+    padding-top: 100px;
     border: solid;
     border-color: black;
     border-width: 2px;    
@@ -167,8 +165,7 @@
 }
 
 .photo3 {
-    background: url("../images/drhfj1.jpg");
-    background-repeat: no-repeat;
+    
     background-size: cover;
     width: 100%;
     background-position: center;
