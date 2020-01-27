@@ -30,7 +30,7 @@
     background: url("../images/brain.jpg");
     background-position: 20% 70%;
     background-repeat: no-repeat;
-    background-size: fill;    
+    
     width: 249px;
 }
 
@@ -40,7 +40,7 @@
     background: url("../images/brain.jpg");
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: fill;    
+   
     width: 249px;
 }
 
@@ -50,7 +50,7 @@
     background: url("../images/brain.jpg");
     background-position: 40% 70%;
     background-repeat: no-repeat;
-    background-size: fill;    
+    
     width: 249px;
 }
 
@@ -60,7 +60,7 @@
     background: url("../images/brain.jpg");
     background-position: 60% 45%;
     background-repeat: no-repeat;
-    background-size: fill;    
+     
     width: 249px;
 }
 
@@ -70,7 +70,7 @@
     background: url("../images/brain.jpg");
     background-position: 70% 65%;
     background-repeat: no-repeat;
-    background-size: fill;    
+    
     width: 249px;
 }
 
